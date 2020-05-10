@@ -1,0 +1,52 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background-image: url(https://nmgprod.s3.amazonaws.com/media/files/cd/30/cd3037c82ff161238ea47d3461b7d8e2/cover_image_1586878170.jpg.640x360_q85_crop.jpg);
+}
+.container{
+   margin: auto;
+   padding: 20px;
+}
+.navbar-brand{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSycdBWa1EN6bZzEPU9macBJz8ST8gcaU5W6LsgTBHr1lEIx0Yu&usqp=CAU);
+    text-shadow: 3px 3px red;
+}
+#card-text{
+    color: black; 
+    text-transform: uppercase; background-color: white;
+}
+#hearder{
+    color: black;
+    text-decoration: blue;
+    margin: 15px;
+    text-align: center;
+    text-transform: uppercase; background-image: url(https://i.pinimg.com/originals/54/7a/9c/547a9cc6b93e10261f1dd8a8af474e03.jpg);
+    text-shadow: 5px 5px #abd65a;
+}
+
+.card{
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.hearder{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ36ybCJHdnosO4DKs8GolhFxF0oL6DQ9Dbs3vc7Aj2goWIA5FK&usqp=CAU);
+    text-shadow: 5px 5px #abd65a;
+    color: black;
+    text-decoration: blue;
+    margin: 15px;
+    text-transform: uppercase;
+    text-align: center; 
+    padding: 20px;
+    
+}
+#message,
+#email,
+#full-name{
+    color: white;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  }
